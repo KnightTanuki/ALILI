@@ -1,0 +1,25 @@
+test
+
+回到git bash命令行，输入
+
+
+
+来检查是否成功绑定。
+第一次绑定的时候输入上边的代码之后会提示是否continue，
+在输入yes后如果出现了：You've successfully authenticated, but GitHub does not provide shell access 。
+那就说明，已经成功连上了GitHub。
+
+然后可以设置一些参数，其中your name和你注册的名字一致，邮箱和你注册的邮箱一致
+然后可以设置一些参数，其中your name和你注册的名字一致，邮箱和你注册的邮箱一致：
+git config --global user.name "your name"
+git config --global user.email "your email"
+根据你自己的需要，希望将库中的代码放在本地中的哪个盘开始定位
+cd /D
+
+ls查看文件夹中文件
+
+git add test.txt
+git commit -m "备注" 引号内的内容可以随意改动，这个语句的意思是给你刚刚上传的文件一个备注
+git push origin master
+登录
+
